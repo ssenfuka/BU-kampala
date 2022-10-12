@@ -1,0 +1,13 @@
+h1.head_test{
+    color: violet;
+    font-size: 50px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+p.para_test{
+    color: blue;
+    font-family: Times New Roman;
+    font-size: 30px;
+    text-align: center;
+}
