@@ -16,8 +16,8 @@
           float: left;
           width: 50%;
           padding: 10px;
+          color: white;
           height: 300px; /* Should be removed. Only for demonstration */
-        
         }
         
         /* Clear floats after the columns */
@@ -26,7 +26,14 @@
           display: table;
           clear: both;
         }
-            </style>
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
 </head>
 <body>
     <div class="topnav">
@@ -37,15 +44,19 @@
       </div>
       <h2 style="text-align:center; color: rgb(7, 7, 73)">  About Sadat Ssenfuka</h2>
 
-      <div class="column" style="background-color: maroon">
-        <h2> Bio-Date </h2> 
-    
+      <div class="row">
+        <div class="column" style="background-color:rgb(127, 20, 20)">
+          <h2>Bio-Data</h2>
+          <p><strong>Name: </strong> Sadat Ssenfuka</p>
+          <p><strong>D.O.B: </strong> October 14, 1994</p>
+          <p><strong>Mobile:</strong> +256(0) 200404040</p>
+          <p><strong>Email:</strong> senfukasadat@gmail.com</p>
+        </div>
+        <div class="column" style="background-color:maroon;">
+          <h2>About my Family</h2>
+          <p>Some text..</p>
+        </div>
       </div>
-
-      <div class="column" style="background-color: white">
-        <h2>About My Family</h2>
-        
-      </div>
-    </div>
+      
 </body>
 </html>
