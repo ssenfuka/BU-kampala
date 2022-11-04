@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sadat</title>
+    <link rel="stylesheet" href="MidSem.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          color: white;
+          height: 700px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="MidSem_About_CSS.html">About CSS</a>
+        <a class="active" href="MidSem_About_Me.html">About Sadat</a>
+        <a href="MidSem_Why_Networks.html">Why Conmputer Networks</a>
+      </div>
+      <h2 style="text-align:center; color: rgb(7, 7, 73)">  About Sadat Ssenfuka</h2>
+
+      <div class="row">
+        <div class="column" style="background-color:rgb(127, 20, 20)">
+          <h2 style="text-align: center;"> A. Bio-Data</h2>
+          <img src="sadat.jpg" alt="" width="70px" height="80px">
+          <p><strong>Name: </strong> Sadat Ssenfuka</p>
+          <p><strong>D.O.B: </strong> October 14, 1994</p>
+          <p><strong>Mobile:</strong> +256(0) 200404040</p>
+          <p><strong>Email:</strong> senfukasadat@gmail.com</p>
+ <h2 style="text-align:center;"> B. Education background</h2>
+ <dl>
+    <dt><strong>Bugema University </strong></dt>
+    <dd>BSc. Computer Networks & Systems Admin</dd>
+    <dt><strong>Kyambogo University </strong></dt>
+    <dd>Diploma in Telecom Engineering</dd>
+    <dt><strong>ISBAT University </strong></dt>
+    <dd>CCNA</dd>
+ </dl>
+ <h2 style="text-align: center;"> C. Skills </h2> 
+ <ol>
+ <li>IP Routing & Switching (OSPF, RIR, SI-SI, BGP Subnetting)</li>
+ <li>Server Virtualization (Vmware, Hyper V, Oracle VM ) </li>
+ <li>VoIP Telephony System Using (Elastix, Asterix, Ayava & ZYCOO)</li>
+ <li>Linux Server Administrator (Ubuntu, CentOS, FreeBSD & openSUSE)</li>
+ <li>Windows Server Administration </li>
+ <li>Network Management </li>
+ <li>Database administration </li>
+
+ </ol>
+    
+        </div>
+        <div class="column" style="background-color:rgb(129, 203, 18)">
+          <h2 style="text-align: center;">About my Family</h2>
+          <p style="font-size: 18px;"> I leave in an extended family comprizing 15 member </p>
+          <p style="font-size: 18px;"> <strong> Consists of;</strong> </p>
+          <ol style="font-size: 18px;">
+            <li> Grand Father</li>
+            <li> Grand Mother</li>
+            <li> Father & 5 Uncles</li>
+            <li> Mother</li>
+            <li> 4 sons</li>
+            <li>4 daughters</li>
+          </ol>
+        </div>
+      </div>
+      
+</body>
+</html>
