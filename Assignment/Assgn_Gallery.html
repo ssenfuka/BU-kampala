@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="CSS_Assignment.css">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+</head>
+<body>
+
+    <div class="topnav">
+        <a href="Assgn_HomePage.html">Home</a>
+        <a  href="Assgn_AboutUs.html">About Us</a>
+        <a class="active"href="Assgn_Gallery">Gallery</a>
+        <a  href="Assgn_ContactUs.html">Contact Us</a>
+        <a href="Assgn_Apply_Now.html">Apply Now</a>
+      </div>
+
+      <h2>Welcome to My sample Gallery</h2>
+
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2> Uploaded Video </h2> 
+          <video width="400" height="450" autoplay muted>
+            <source src="videofile.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="column" style="background-color:#bbb;">
+          <h2>Uploaded Audio</h2>
+          <audio controls autoplay> 
+            <source src="audiofile.mp3" type="audio/mpeg"> 
+          </audio>
+        </div>
+      </div>
+      
+
+</body>
+</html>
