@@ -192,8 +192,8 @@ button:focus {
 }
 
 .social-icon li a {
-  color: #000;
-  background: #fff;
+  color: rgb(11, 23, 83);
+  background: rgb(164, 239, 4);
   width: 35px;
   height: 35px;
   line-height: 38px;
@@ -212,25 +212,14 @@ button:focus {
   color: #fff;
 }
 
-.social-icon li .facebook:hover {
-  background: #3b5999;
-}
-
 .social-icon li .twitter:hover {
-  background: #4A9CEC;
-}
-
-.social-icon li .instagram:hover {
-  background: #D6274D;
+  background: #03205f;
 }
 
 .social-icon li .linkedin:hover {
-  background: #1260A2;
+  background: #03205f;
 }
 
-.social-icon li .google:hover {
-  background: #CE332A;
-}
 
 /* ScrollToTop */
 a.back-to-top {
@@ -248,7 +237,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #00b4d9;
+  background: rgb(164, 239, 4);
   border-radius: 2px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -360,7 +349,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .counter-section .counter .icon i {
   font-size: 48px;
-  color: #00b4d9;
+  color: #03205f;;
 }
 
 .counter-section .counter p {
@@ -442,7 +431,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: block;
   position: absolute;
   margin-top: 18px;
-  border-color: #00b4d9 !important;
+  border-color: #03205f !important;
 }
 
 .timeline li:first-child i {
@@ -452,7 +441,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   line-height: 50px;
   border-radius: 30px;
   margin: -12px -55px;
-  background: #00b4d9;
+  background: rgb(164, 239, 4);
   color: #fff;
   width: 50px;
   height: 50px;
@@ -499,7 +488,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #00b4d9 !important;
+  color: #03205f !important;
 }
 
 .indigo {
@@ -512,7 +501,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link i {
   font-size: 28px;
-  color: #00b4d9;
+  color: #03205f;
   vertical-align: middle;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -520,7 +509,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link i:hover {
-  color: #21cff3;
+  color: #03205f;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -541,7 +530,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #00b4d9;
+  color: #03205f;
   outline: none;
 }
 
@@ -550,7 +539,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  color: #00b4d9;
+  color: #03205f;
 }
 
 .dropdown-toggle::after {
@@ -634,7 +623,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .dropdown .dropdown-item:focus,
 .dropdown .dropdown-item:hover,
 .dropdown .dropdown-item.active {
-  color: #00b4d9;
+  color: #03205f;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -647,11 +636,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_btn {
-  border-color: #00b4d9;
+  border-color: #03205f;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #00b4d9;
+  background: #03205f;
 }
 
 /* only small tablets */
@@ -698,7 +687,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   .slicknav_nav a:hover,
   .slicknav_nav a:focus,
   .slicknav_nav .active {
-    color: #00b4d9;
+    color: #03205f;
     outline: none;
     background: #f8f9fa;
   }
@@ -799,8 +788,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .controls .active {
-  color: #00b4d9 !important;
-  border-color: #00b4d9;
+  color: #03205f !important;
+  border-color: #03205f;
   background: transparent;
 }
 
@@ -859,7 +848,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  color: #00b4d9;
+  color: #03205f;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -928,7 +917,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   display: block;
   margin: 0 auto;
   height: 48px;
-  color: #00b4d9;
+  color: #03205f;
 }
 
 .services-item .services-content h3 {
@@ -943,7 +932,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .services-item .services-content h3 a:hover {
-  color: #00b4d9;
+  color: #03205f;
 }
 
 .services-item .services-content p {
@@ -1008,7 +997,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-right-contact .contact-icon {
-  background: #00b4d9;
+  background: #03205f;
   color: #fff;
   border-radius: 50%;
   font-size: 20px;
@@ -1041,18 +1030,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #d9534f;
 }
 
-#conatiner-map {
-  margin-top: 30px;
-  text-align: center;
-  background-color: #fff;
-  height: 370px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: 101;
-  width: 100%;
-}
-
 /* Footer Area Start */
 .footer-area {
   background: #1C1C20;
@@ -1065,7 +1042,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-area .footer-text p a {
-  color: #00b4d9;
+  color: #03205f;
 }
 
 .footer-area .footer-text .nav-inline .nav-link {
@@ -1074,7 +1051,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-area .footer-text .nav-inline .nav-link:hover {
-  color: #00b4d9;
+  color: #03205f;
 }
 
 .footer-2 {
@@ -1108,7 +1085,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-2 ul li a:hover {
-  color: #00b4d9;
+  color: #03205f;
 }
 
 #copyright {
@@ -1126,5 +1103,5 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 #copyright p a:hover {
-  color: #00b4d9;
+  color: #03205f;
 }
