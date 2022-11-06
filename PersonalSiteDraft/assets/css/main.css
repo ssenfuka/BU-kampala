@@ -1033,7 +1033,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 /* Footer Area Start */
 .footer-area {
-  background: #1C1C20;
+  /*background: #1C1C20;*/
+  background: #010e28;
 }
 
 .footer-area .footer-text p {
